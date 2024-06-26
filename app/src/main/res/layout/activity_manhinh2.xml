@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".manhinh2">
+
+
+    <EditText
+        android:id="@+id/txtmasv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập kh"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/txtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ten "
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/txtdiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tuoi "
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/txtsdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập sdt"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="150dp"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="16sp"/>
+
+
+
+
+</LinearLayout>
